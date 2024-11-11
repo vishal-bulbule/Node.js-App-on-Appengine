@@ -1,0 +1,7 @@
+runtime: nodejs20
+service: blog-app
+
+# Optional environment variables
+env_variables:
+  MONGODB_URI: "mongodb+srv://techtrapture:<YOUR_DB_PASSWORD>@techtrapture.wlsbucd.mongodb.net/nodeapp" ## Add your database password
+
